@@ -12,14 +12,14 @@ let package = Package(
             targets: ["ASPM"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/iOS-Minhyun/BSPM.git", from: "0.0.0")
+//        .package(url: "https://github.com/iOS-Minhyun/BSPM.git", from: "0.0.0")
     ],
     targets: [
         .target(
             name: "ASPM",
             dependencies: [
                 .target(name: "AFramework"),
-                .product(name: "BSPM", package: "BSPM")
+//                .product(name: "BSPM", package: "BSPM")
             ]),
         .testTarget(
             name: "ASPMTests",
