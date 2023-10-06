@@ -1,0 +1,11 @@
+framework module AFramework {
+  umbrella header "AFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AFramework.Swift {
+  header "AFramework-Swift.h"
+  requires objc
+}

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "bspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iOS-Minhyun/BSPM.git",
+      "state" : {
+        "revision" : "938e39514fbc917474e0748c5ed6b42f1f590cc0",
+        "version" : "0.0.4"
+      }
+    }
+  ],
+  "version" : 2
+}
